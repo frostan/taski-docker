@@ -14,8 +14,6 @@ DEBUG = os.getenv('DEBUG')
 ALLOWED_HOSTS = ['84.201.142.188', 'localhost', '127.0.0.1', 'dosomething.zapto.org']
 
 
-# Application definition
-
 INSTALLED_APPS = [
     'api.apps.ApiConfig',
     'django.contrib.admin',
